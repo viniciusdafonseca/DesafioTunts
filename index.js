@@ -55,10 +55,6 @@ async function gsrun(cl){
             record[6] = "Exame Final";
             var naf = 10-rounded_average; // calculating naf
             record[7] = naf;
-            if((rounded_average+naf)/2 >=5){
-                console.log('Correto');
-            }
-    
         }
         
         return record;
